@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "id": "mod-aoe-loot",
+  "version": "1.0.0",
+  "name": { "en": "AoE loot", "ru": "Сбор добычи с области" },
+  "description": {
+    "en": "Loots every nearby corpse at once.",
+    "ru": "Собирает добычу со всех трупов рядом за раз."
+  },
+  "authors": [ "AzerothCore" ],
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/azerothcore/mod-aoe-loot",
+  "source": {
+    "repo": "https://github.com/azerothcore/mod-aoe-loot.git",
+    "commit": "3d1466e122f2d43addb10e64b35e01025a214334"
+  },
+  "core": { "abi": "lonelyice-ac-2" },
+  "platforms": [ "windows-x64" ],
+  "server": { "library": "mod_aoe_loot" },
+  "databases": { "world": "data/sql/db-world" },
+  "config": "conf/mod_aoe_loot.conf.dist"
+}
