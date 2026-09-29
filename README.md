@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="128" alt="logo"></p>
+
 # mod-aoe-loot plugin
 
 Builds [azerothcore/mod-aoe-loot](https://github.com/azerothcore/mod-aoe-loot) as a plugin for
