@@ -1,0 +1,14 @@
+{
+  "group": { "en": "Area loot", "ru": "Сбор добычи по площади" },
+  "hint": { "en": "Looting one corpse loots the corpses around it too", "ru": "Обыск одного трупа собирает добычу и с трупов вокруг" },
+  "fields": [
+    { "key": "AOELoot.Enable", "type": "bool", "default": 1, "apply": "reload",
+      "label": { "en": "Area loot enabled", "ru": "Сбор по площади включён" } },
+    { "key": "AOELoot.Range", "type": "float", "min": 5.0, "max": 100.0, "default": 55.0, "apply": "reload",
+      "label": { "en": "Range, yards", "ru": "Радиус, ярды" } },
+    { "key": "AOELoot.Group", "type": "bool", "default": 1, "apply": "reload",
+      "label": { "en": "Also in a group", "ru": "Также в группе" } },
+    { "key": "AOELoot.Message", "type": "bool", "default": 1, "apply": "reload",
+      "label": { "en": "Message on login", "ru": "Сообщение при входе" } }
+  ]
+}
